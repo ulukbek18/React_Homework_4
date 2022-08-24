@@ -1,0 +1,64 @@
+
+.table {
+    font-size: 12px;
+    width: auto;
+    &-row {
+      display: flex;
+      justify-content: flex-start;
+      border: 1px solid black;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    &-row:hover{
+      color: rgb(248, 36, 36);
+    }
+    &-column {
+      padding: 6px;
+      border: 1px solid black;
+      font-size: 20px;
+    }
+  }
+  
+  .header {
+    color: #4646f6;
+    font-weight: 500;
+    font-size: 14px;
+
+  }
+  
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 241, 5, 0.2);
+  }
+  
+  
+  
+  .input-component {
+    margin: 50px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .rank {
+    min-width: 370px;
+    // font-size: 25px;
+
+  }
+  
+  .club {
+    min-width: 100px;
+  
+  }
+  
+  .crest {
+    min-width: 200px;
+  }
+  
+  .points {
+    min-width: 200px;
+  }
